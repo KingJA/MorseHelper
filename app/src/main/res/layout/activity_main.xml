@@ -7,6 +7,18 @@
     android:orientation="vertical"
     android:padding="12dp"
     tools:context="sample.kingja.morsehelper.MainActivity">
+    <TextView
+        android:id="@+id/tv_count"
+        android:text="发送次数：3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <SeekBar
+
+        android:id="@+id/sb_count"
+        android:progress="2"
+        android:max="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
     <EditText
         android:id="@+id/et_morse"
